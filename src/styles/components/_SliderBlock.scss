@@ -1,0 +1,41 @@
+.slider_block {
+  font-family: 'Roboto';
+  color: $font-color-main;
+}
+
+.slider_block h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.range_items {
+  position: relative;
+  display: flex;
+  justify-content:  space-evenly;
+}
+
+.line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  width: 20px;
+  height: 1px;
+  background-color: $font-color-main;
+}
+
+.range_slider .rc-slider-track {
+  background-color: $brand-color;
+}
+
+.range_slider .rc-slider-handle {
+  background-color: $brand-color;
+  border: solid 2px $brand-color;
+  opacity: 1;
+}
+
+.range_slider .rc-slider-handle:active {
+  border-color: $brand-color;
+  box-shadow: 0 0 5px $brand-color;
+}
+

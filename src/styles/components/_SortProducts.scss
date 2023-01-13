@@ -1,0 +1,71 @@
+.sort-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.sort-bar {
+  height: 2rem;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.amount-products {
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  font-size: 20px;
+  margin-top: -49px;
+  transform: translateX(50%);
+}
+
+.view-mode {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-mode_big {
+  border: 2px solid $font-color-main;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.view-mode_big-sqare {
+  width: 30%;
+  height: 30%;
+  background-color: $font-color-main;
+  border-radius: 3px;
+}
+
+.view-mode_small {
+  border: 2px solid $font-color-main;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.view-mode_small-sqare {
+  width: 22.5%;
+  height: 22.5%;
+  background-color: $font-color-main;
+  border-radius: 2px;
+}
+
+.active {
+  box-shadow: 0px 1px 2px 0px rgba(255, 0, 0, 0.5), 1px 2px 4px 0px rgba(180, 21, 21, 0.7),
+    2px 4px 8px 0px rgba(182, 41, 41, 0.7), 2px 4px 16px 0px rgba(184, 16, 38, 0.7);
+}
